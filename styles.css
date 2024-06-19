@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #f3e7e0;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.perfil h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.perfil p {
+    text-align: center;
+    font-size: 0.9em;
+    margin: 0 0 10px;
+}
+
+h2 {
+    color: #cc5500;
+    border-bottom: 2px solid #cc5500;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+h3 {
+    color: #007acc;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.contacto, .idiomas {
+    margin-top: 20px;
+}
+
+.contacto h2, .idiomas h2 {
+    font-size: 1.1em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+aside p {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
